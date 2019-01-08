@@ -1,0 +1,33 @@
+{
+  "name": "fastify-potter-api",
+  "version": "1.0.0",
+  "description": "REST Api training, I build a simple crud for architecting an effective and efficient API using fastify, it will achieve  Speed,  Documentation using swagger and  Architecture and Sustainability.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h3ct0rjs/fastify-potter-api.git"
+  },
+  "keywords": [
+    "potter",
+    "fastify",
+    "nodejs"
+  ],
+  "author": "h3ct0rjs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h3ct0rjs/fastify-potter-api/issues"
+  },
+  "homepage": "https://github.com/h3ct0rjs/fastify-potter-api#readme",
+  "devDependencies": {
+    "fastify-chalk": "^0.1.2",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^1.13.3",
+    "mongoose": "^5.4.2"
+  }
+}
